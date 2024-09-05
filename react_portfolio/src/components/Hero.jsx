@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/abhiprofilepic.png";
+import profilePic from "../assets/kevinRushProfile.png";
 // import pdf from "../pdf/resume.pdf";
 import { delay, motion } from "framer-motion";
 
