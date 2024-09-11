@@ -42,7 +42,7 @@ export const PROJECTS = [
   image: project3,
   description: "A full-stack content management system built for managing blogs and articles. The system allows users to create, update, delete, and view blogs in real-time. The project features a responsive frontend developed using React and Tailwind CSS, with state management handled via Context API. The backend is powered by Node.js and Express.js, with MongoDB as the database to store content. This CMS provides a seamless and efficient way to manage content for a variety of purposes, ensuring smooth user interaction and dynamic updates.",
   technologies: ["React", "Tailwind CSS", "Context API", "Node.js", "Express.js", "MongoDB"],
-  link: "https://cms-demo.com"
+  link: "https://c-m-s.onrender.com"
 },
   {
     title: "Portfolio Website",
