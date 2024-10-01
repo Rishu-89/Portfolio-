@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
-// import pdf from "../pdf/resume.pdf";
+// import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/cyborg.jpg";
+// import pdf from "../assets/projects/resume (7).pdf"
 import { delay, motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -51,7 +52,7 @@ const Hero = () => {
 
                     <a
                         href="#"
-                        // download=""
+                        // download={pdf}
                     >
                         Download Resume
                     </a>

@@ -4,6 +4,12 @@ import project2 from "../assets/projects/portfolio.png";
 import project3 from "../assets/projects/news.jpeg";
 import project4 from "../assets/DuoStudio.avif";
 import project5 from "../assets/projects/chess.jpeg";
+import Project6 from "../assets/blogwebsite.png"
+
+
+
+
+
 export const HERO_CONTENT = `I am a passionate full stack web developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, Javascript, Tailwind CSS and Next.js(Familiar), as well as back-end technologies like Node.js, Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack web developer with a passion for creating efficient and user-friendly web applications. With 1+ years of experience, I have worked with a variety of technologies, including React, Javascript, Tailwind CSS, Next.js, Node.js, MySQL, Express.js, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I learn C++ with DSA and enjoy staying active, exploring new technologies.`;
@@ -29,49 +35,69 @@ export const EXPERIENCES = [
   },
 ];
 
+
+
+
+
+
 export const PROJECTS = [
   {
     title: "E-commerce Shopping Website",
     image: project1,
     description: "A fully responsive e-commerce platform built with React and Bootstrap. It features advanced search and filtering by price and categories, with robust state management via the Context API. The custom-built backend, powered by MongoDB, includes a comprehensive admin dashboard for managing products and users. Enhanced security is ensured through secure authorization and authentication processes.",
     technologies: ["React", "Bootstrap", "Context API", "Node.js", "Express.js", "MongoDB"],
-    link: "https://ecoomerce-frontend.onrender.com"
+    link: "https://ecoomerce-frontend.onrender.com",
+    github: "https://github.com/Rishu-89/ECOOMERCE"
   },
-   {
-  title: "Content Management System",
-  image: project3,
-  description: "A full-stack content management system built for managing blogs and articles. The system allows users to create, update, delete, and view blogs in real-time. The project features a responsive frontend developed using React and Tailwind CSS, with state management handled via Context API. The backend is powered by Node.js and Express.js, with MongoDB as the database to store content. This CMS provides a seamless and efficient way to manage content for a variety of purposes, ensuring smooth user interaction and dynamic updates.",
-  technologies: ["React", "Tailwind CSS", "Context API", "Node.js", "Express.js", "MongoDB"],
-  link: "https://c-m-s.onrender.com"
-},
+  {
+    title: "Content Management System",
+    image: Project6,
+    description: "A full-stack content management system built for managing blogs and articles. The system allows users to create, update, delete, and view blogs in real-time. The project features a responsive frontend developed using React and Tailwind CSS, with state management handled via Context API. The backend is powered by Node.js and Express.js, with MongoDB as the database to store content. This CMS provides a seamless and efficient way to manage content for a variety of purposes, ensuring smooth user interaction and dynamic updates.",
+    technologies: ["React", "Tailwind CSS", "Context API", "Node.js", "Express.js", "MongoDB"],
+    link: "https://c-m-s.onrender.com",
+    github: "https://github.com/Rishu-89/C-M-S"
+  },
   {
     title: "Portfolio Website",
     image: project2,
     description: "A personal portfolio website showcasing projects, skills, and contact information. Developed a responsive and visually appealing portfolio website using React, a popular JavaScript library for building user interfaces, and Tailwind CSS, a utility-first CSS framework for styling and layout.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP"],
-    link: "#home"
+    link: "#home",
+    github: "https://github.com/Rishu-89/Portfolio-"
   },
   {
     title: "Chess Game",
     image: project5,
     description: "A real-time chess game built with Socket.IO, EJS, HTML, CSS, and JavaScript. The project features a backend developed with Express.js, allowing two players to compete against each other seamlessly. The application supports live gameplay with smooth interactions and dynamic updates, ensuring an engaging and responsive user experience.",
     technologies: ["Chess.js", "EJS", "Socket.io", "JavaScript", "Express.js"],
-    link: "https://chess-1-kguh.onrender.com"
+    link: "https://chess-1-kguh.onrender.com",
+    github: "https://github.com/Rishu-89/Chess"
   },
   {
     title: "Duo Studio Clone",
     image: project4,
-    description: "A Duo Studio clone developed using HTML, CSS, JavaScript. The project leverages GSAP for advanced animations and Locomotive Scroll for smooth scrolling effects, providing a visually engaging and interactive user experience. The design mimics the original Duo Studio layout, showcasing intricate details and dynamic interactions. The application is fully responsive, ensuring a seamless experience across various devices and screen sizes..",
+    description: "A Duo Studio clone developed using HTML, CSS, JavaScript. The project leverages GSAP for advanced animations and Locomotive Scroll for smooth scrolling effects, providing a visually engaging and interactive user experience. The design mimics the original Duo Studio layout, showcasing intricate details and dynamic interactions. The application is fully responsive, ensuring a seamless experience across various devices and screen sizes.",
     technologies: ["HTML", "CSS", "JavaScript","Locomotive Js","GSAP"],
-    link: "https://rishu-pandey.netlify.app/"
+    link: "https://rishu-pandey.netlify.app/",
+    github: "https://github.com/Rishu-89/Duo-studio-Clone"
   },
   {
     title: "NewsFinder",
     image: project3,
     description: "A responsive news webpage built with HTML, CSS, Bootstrap, and JavaScript. It includes a robust search functionality to find any news articles quickly. The site integrates with a third-party API to fetch and display the latest news, ensuring up-to-date and relevant content. The design is user-friendly, providing an intuitive browsing experience across all devices.",
     technologies: ["HTML", "CSS", "JavaScript"],
-  },
+    link: "https://newsfinder-example.onrender.com",
+    github: "https://github.com/Rishu-89"
+  }
 ];
+
+
+
+
+
+
+
+
 
 export const CONTACT = {
   address: "99-Shope Bholaram BhawarKua Indore Madhya Pradesh",
